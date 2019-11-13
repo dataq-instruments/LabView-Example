@@ -15,4 +15,4 @@ Foot notes:<br/>
   Use Dashboard to launch WinDaq to verify the operational status of the device if needed
   
 
-![alt text](https://https://www.dataq.com/resources/repository/labview.gif "ScreenCapture")
+![alt text](https://www.dataq.com/resources/repository/labview.gif "ScreenCapture")
