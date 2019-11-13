@@ -1,7 +1,5 @@
 # Labview
-This Labview example is based on DATAQsdk ActiveX. It targets DI-2108, but it also supports DI-11xx, DI-21xx, DI-41xx and DI-47xx with appropriate modification to reflect the gain/range difference.
-
-With further modification to DeviceDriver and Device ID, it can support other devices, please refer to https://www.dataq.com/data-acquisition/software/developer-network/#3
+This Labview example is based on DATAQsdk ActiveX. It targets DI-2108, but it also supports DI-11xx, DI-21xx, DI-41xx and DI-47xx and others with appropriate modification, such as DeviceDriver and DeviceID, gain/range difference, please refer to https://www.dataq.com/data-acquisition/software/developer-network/#3
 
 Requirements:<br/>
   Installation of LabView 2019 (32-bit)<br/>
