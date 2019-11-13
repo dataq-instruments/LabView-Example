@@ -1,5 +1,5 @@
-# labview
-labview example based dataqsdk activex. It supports DI-11xx, DI-21xx, DI-41xx and DI-47xx. 
+# Labview
+Labview example based dataqsdk ActiveX. It supports DI-11xx, DI-21xx, DI-41xx and DI-47xx. 
 
 With modification to DeviceDriver and Device ID, it can support other devices, please refer to https://www.dataq.com/data-acquisition/software/developer-network/#3
 
