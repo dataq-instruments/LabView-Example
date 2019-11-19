@@ -14,3 +14,9 @@ Foot notes:<br/>
   It uses DI-2108 as the target device, since its input range is 10V, the math to convert raw ADC reading to voltage can be simplified as ADC/3276.8 <br/>
   For the immediate readings, the first scan is used directly<br/>
   Use Dashboard to launch WinDaq to verify the operational status of the device if needed
+  
+  It is noticed with LabView 2019, LabView failed to unload ActiveX on its way out (we will try to contact them to see if they will resolve this issue), leaving the device connected to the device driver, so that you can't restart the program nor invoke WinDaq unless you do the following:
+  
+  Right click on Windows task bar and select Tas Manager<br/>
+  From the Processes tab, find DISCN???, and terminate it<br/>
+ 
