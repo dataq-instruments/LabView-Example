@@ -10,12 +10,15 @@ Requirements:<br/>
 
 ![alt text](https://www.dataq.com/resources/repository/labview.gif "ScreenCapture")
 
-Foot notes:<br/>
+:notebook:Foot notes:<br/>
   It uses DI-2108 as the target device, since its input range is 10V, the math to convert raw ADC reading to voltage can be simplified as ADC/3276.8 <br/>
   For the immediate readings, the first scan is used directly<br/>
   Use Dashboard to launch WinDaq to verify the operational status of the device if needed
   
-  It is noticed with LabView 2019, LabView failed to unload ActiveX on its way out, leaving the device connected to the device driver, we added a work around in following steps
+:bug: LabView 2019 Glitch
+  It is noticed with LabView 2019, LabView failed to unload ActiveX on its way out if the activex is used inside the program, leaving the device connected to the device driver
+  
+  To deal with problem, we added a work around in following steps in the example
   
   After Stop, we will assign a new DeviceDriver (simply a non-existing file as space holder)<br/>
   Invoke DigitalOutput so that the "new" device driver will be used and release the real one<br/>
