@@ -15,7 +15,7 @@ Requirements:<br/>
   For the immediate readings, the first scan is used directly<br/>
   Use Dashboard to launch WinDaq to verify the operational status of the device if needed
   
-:bug: LabView 2019 Glitch
+:bug: LabView 2019 Glitch<br/>
   It is noticed with LabView 2019, LabView failed to unload ActiveX on its way out if the activex is used inside the program, leaving the device connected to the device driver
   
   To deal with problem, we added a work around in following steps in the example
