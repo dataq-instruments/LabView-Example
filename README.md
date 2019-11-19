@@ -15,8 +15,8 @@ Foot notes:<br/>
   For the immediate readings, the first scan is used directly<br/>
   Use Dashboard to launch WinDaq to verify the operational status of the device if needed
   
-  It is noticed with LabView 2019, LabView failed to unload ActiveX on its way out (we will try to contact them to see if they will resolve this issue), leaving the device connected to the device driver, so that you can't restart the program nor invoke WinDaq unless you do the following:
+  It is noticed with LabView 2019, LabView failed to unload ActiveX on its way out, leaving the device connected to the device driver, we added a work around in following steps
   
-  Right click on Windows task bar and select Tas Manager<br/>
-  From the Processes tab, find DISCN???, and terminate it<br/>
+  After Stop, we will assign a new DeviceDriver (simply a non-existing file as space holder)<br/>
+  Invoke DigitalOutput so that the "new" device driver will be used and release the real one<br/>
  
