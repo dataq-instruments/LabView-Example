@@ -3,6 +3,8 @@ This Labview example is based on DATAQsdk ActiveX. It targets DI-2108, but it al
 
 See https://github.com/dataq-instruments/LabView-for-DI-2008 for DI-2008 example
 
+See https://github.com/dataq-instruments/LabView-Dio-Ain for how to use DIO while recording analog waveform
+
 Requirements:<br/>
   Installation of LabView 2019 (32-bit)<br/>
   Installation of Dataq Software Suite<br/>
