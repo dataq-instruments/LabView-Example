@@ -5,7 +5,7 @@ See https://github.com/dataq-instruments/LabView-for-DI-2008 for DI-2008 example
 
 See https://github.com/dataq-instruments/LabView-Dio-Ain for how to use DIO while recording analog waveform. This example is based on DataqSDK ActiveX, and it requires **32-bit** LabView
 
-See https://github.com/dataq-instruments/LabView-2108-CDC for how to access DI-11xx/2xxx/4xxx series via virtual COM port and program in  protocol level. When using this approach, either **32-bit** or **64-bit** LabView can be employed
+See https://github.com/dataq-instruments/LabView-2108-CDC for how to access DI-11xx/2xxx/4xxx **_USB_** series via virtual COM port and program in  protocol level. When using this approach, either **32-bit** or **64-bit** LabView can be employed
 
 Requirements:<br/>
   Installation of LabView 2019 (**32-bit**)<br/>
