@@ -7,6 +7,8 @@ See https://github.com/dataq-instruments/LabView-Dio-Ain for how to use DIO whil
 
 See https://github.com/dataq-instruments/LabView-2108-CDC for how to access DI-11xx/2xxx/4xxx **_USB_** series via virtual COM port and program in  protocol level. When using this approach, either **32-bit** or **64-bit** LabView can be employed
 
+See http://ultimaserial.com/lv8tutor.html for how to dive into the block diagram level of LabView to modify the VI to suite your applications
+
 Requirements:<br/>
   Installation of LabView 2019 (**32-bit**)<br/>
   Installation of Dataq Software Suite<br/>
