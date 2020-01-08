@@ -1,13 +1,14 @@
 # LabView
 This LabView example is based on DATAQsdk ActiveX. It targets DI-2108, but it also supports DI-11xx, DI-21xx, DI-41xx and DI-47xx and others with appropriate modification, such as DeviceDriver and DeviceID, gain/range difference, please refer to https://www.dataq.com/data-acquisition/software/developer-network/#3
 
+See http://ultimaserial.com/lv8tutor.html and http://ultimaserial.com/lvtutor.html for how to dive into the block diagram level of LabView to modify the VI to suite your applications
+
 See https://github.com/dataq-instruments/LabView-for-DI-2008 for DI-2008 example. This example is based on DataqSDK ActiveX, and it requires **32-bit** LabView
 
 See https://github.com/dataq-instruments/LabView-Dio-Ain for how to use DIO while recording analog waveform. This example is based on DataqSDK ActiveX, and it requires **32-bit** LabView
 
 See https://github.com/dataq-instruments/LabView-2108-CDC for how to access DI-11xx/2xxx/4xxx **_USB_** series via virtual COM port and program in  protocol level. When using this approach, either **32-bit** or **64-bit** LabView can be employed
 
-See http://ultimaserial.com/lv8tutor.html and http://ultimaserial.com/lvtutor.html for how to dive into the block diagram level of LabView to modify the VI to suite your applications
 
 Requirements:<br/>
   Installation of LabView 2019 (**32-bit**)<br/>
