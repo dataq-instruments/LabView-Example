@@ -17,7 +17,7 @@ Requirements:<br/>
   For more info about DataqSDK ActiveX, please refer to https://www.dataq.com/products/dataq-active-x/features.html
 
 
-![alt text](https://www.dataq.com/resources/repository/labview.gif "ScreenCapture")
+![alt text](https://www.dataq.com/resources/repository/labview.gif "ScreenCapture by LICECap")
 
 :notebook:Foot notes:<br/>
   It uses DI-2108 as the target device, since its input range is 10V, the math to convert raw ADC reading to voltage can be simplified as ADC/3276.8 <br/>
