@@ -38,9 +38,17 @@ This LabView example is based on DATAQsdk ActiveX. It targets DI-2108, but it ca
   - After Stop, we will assign a new DeviceDriver (simply a non-existing file as space holder)<br/>
   Invoke DigitalOutput so that the "new" device driver will be used and release the real one<br/>
  
-:boom: if you terminate the app without properly unloading ActiveX, you will not be able to restart LabView program nor WinDaq, and the WinDaq dashboard will show "Busy" status for the device, to resolve it, please right link on Window's task bar in the bottom of your screen, select Task Manager. Under Processes tab, locate a Background processes named "DISCN???", where ??? matches the number in DI???NT.DLL you assigned to DeviceDriver, terminate it. Everything will back to normal after this, you may use Windaq Dashboard to launch Windaq to verify it.
+:boom: if you terminate the app without properly unloading ActiveX, you will not be able to restart LabView program nor WinDaq, and the WinDaq dashboard will show "Busy" status for the device, to resolve it
 
-To debug DataqSDK-based LabView programs, the best way to generate debug messages from Dataqsdk. To do that
+1) Right link on Window's task bar in the bottom of your screen
+
+2) Select Task Manager
+
+3) Under Processes tab, locate a Background processes named "DISCN???", where ??? matches the number in DI???NT.DLL you assigned to DeviceDriver
+
+4) Terminate it. Everything will back to normal after this, you may use Windaq Dashboard to launch Windaq to verify it.
+
+:boom: To debug DataqSDK-based LabView programs, the best way to generate debug messages from Dataqsdk. To do that
 
 1) Locate TPDATAQ.INI in Windows directory (C:\Windows by default). 
 
