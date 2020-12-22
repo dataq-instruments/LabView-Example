@@ -11,23 +11,23 @@ This LabView example is based on DATAQsdk ActiveX. It targets DI-2108, but it ca
   - See https://github.com/dataq-instruments/LabView-2108-CDC for how to access DI-11xx/2xxx/4xxx **_USB_** series via virtual COM port and program in  protocol level. When using this approach, either **32-bit** or **64-bit** LabView can be employed
 
 
-**Requirements**:
+**Test Drive**:
 
   1) Installation of LabView 2019 (**32-bit**)
   
   2) Installation of Dataq Software Suite
   
-  3) Dataq Instruments devices that support DataqSDK ActiveX<br/> 
-  For more info about DataqSDK ActiveX, please refer to https://www.dataq.com/products/dataq-active-x/features.html
-
-**Expected Test Drive Result**
-
-![alt text](https://www.dataq.com/resources/repository/labview.gif "ScreenCapture by LICECap")
+  3) Use any Dataq Instruments devices that support DataqSDK ActiveX. For more info about DataqSDK ActiveX, please refer to https://www.dataq.com/products/dataq-active-x/features.html 
+  
+  4) Here is what you will see <br/>
+  ![alt text](https://www.dataq.com/resources/repository/labview.gif "ScreenCapture by LICECap")
 
 :notebook:Foot notes:
-  - It uses DI-2108 as the target device, since its input range is 10V, the math to convert raw ADC reading to voltage can be simplified as ADC/3276.8 <br/>
-  For the immediate readings, the first scan is used directly<br/>
-  Use Dashboard to launch WinDaq to verify the operational status of the device if needed
+  - It uses DI-2108 as the target device, since its input range is 10V, the math to convert raw ADC reading to voltage can be simplified as ADC/3276.8
+  
+  - For the immediate readings, the first scan is used directly
+  
+  - Use Dashboard to launch WinDaq to verify the operational status of the device if needed
   
 :bug: LabView 2019 Glitch
 
