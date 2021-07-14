@@ -1,5 +1,5 @@
 # LabView
-This LabView example is based on DATAQsdk ActiveX. It targets DI-2108, but it can also be applied to  DI-11xx, DI-21xx, DI-41xx and DI-47xx and others with appropriate modification, such as DeviceDriver and DeviceID, gain/range difference, please refer to https://www.dataq.com/data-acquisition/software/developer-network/#3
+This LabView example is based on DATAQsdk ActiveX. It targets DI-2108, but it can also be applied to  DI-11xx, DI-21xx, DI-41xx and DI-47xx and others with appropriate modification, such as DeviceDriver and DeviceID, gain/range difference, please refer to https://www.dataq.com/resources/installations/web-help/sdk/, under Reference Materials->Device IDs and Device Drivers
 
 **Extra Readings**
   - Please look at our new LabView example https://github.com/dataq-instruments/USB_Labview_Example 
